@@ -1,0 +1,33 @@
+.wrappervan{
+    max-width: 1170px;
+    margin:0 auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.boxvan{
+    width: 320px;
+}
+
+.imgvan{
+    object-fit: cover;
+    height: 400px;
+}
+
+.titlerestorant{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.titlevan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+}
+
+.vanimg{
+    height: 270px;
+    object-fit: cover;
+}

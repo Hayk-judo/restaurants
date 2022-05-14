@@ -1,0 +1,44 @@
+<header>
+    <ul class="headul">
+        <li>
+            <a href="/">
+                <span>HOME</span>
+                <span>HOME</span>
+            </a>
+        </li>
+        <li>
+            <a href="/about">
+                <span>ABOUT</span>
+                <span>ABOUT</span>
+            </a>
+        </li>
+        <li>
+            <a href="/projects">
+                <span>PROJECTS</span>
+                <span>PROJECTS</span>
+            </a>
+        </li>
+        <li>
+            <a href="/register">
+                <span>REGISTER</span>
+                <span>REGISTER</span>
+            </a>
+        </li>
+        <% if(typeof user !== 'undefined' && user) { %>
+            <li>
+                <a href="/logout">
+                    <span>LOGOUT (<%= user.username %>)</span>
+                    <span>LOGOUT (<%= user.username %>)</span>
+                </a>
+            </li>
+        <% } else { %>
+            <li>
+                <a href="/login">
+                    <span>LOGIN</span>
+                    <span>LOGIN</span>
+                </a>
+            </li>
+        <% } %>
+
+    </ul>
+</header>

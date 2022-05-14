@@ -1,0 +1,61 @@
+.wraper{
+    width: 100%;
+    background: lavender;
+    margin: 0;
+    padding: 0;
+}
+
+.indexcontainer{
+    max-width: 1170px;
+    margin:0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.indextitle{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.iconsize{
+    font-size: 20px;
+}
+
+.box{
+    margin-top: 15px;
+}
+
+.indexa{
+    color: blue;
+}
+
+.indexflex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 25px;
+}
+
+.indexp{
+    padding-top: 25px;
+    line-height: 1.5;
+    padding-left: 4px;
+    border-radius: 10%;
+    border-style: inset;
+}
+
+.indexh3{
+    padding-left: 12px;
+}
+
+
+hr{
+    margin-top: 10px;
+}
